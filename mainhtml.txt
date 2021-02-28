@@ -1,0 +1,103 @@
+.mainmenu {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 1%;
+}
+
+.maintext {
+  text-align: center;
+}
+
+
+.additiontext {
+  text-align: center;
+  padding-bottom: 2%;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.upper_button {
+  display: flex;
+}
+
+.mainbutton_form {
+  margin: 0 auto;
+}
+
+.mainbutton {
+  width: auto;
+  height: 40px;
+  border-radius: 50px;
+  border: 0;
+  padding: 0 10px 0 10px;
+  background-color: orange;
+  cursor: pointer;
+  box-shadow: 0px;
+  font-size: 20px;
+  color: white;
+  outline: none;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+}
+
+.mainbutton:hover {
+  background-color: hsl(39, 100%, 41%);
+}
+
+.searchqw {
+  margin: 0 auto;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  padding: 2%;
+}
+
+.info_form {
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  outline: none;
+  text-align: center;
+  font-size: 16px;
+}
+
+.info_form:focus {
+  border: 1px solid blue;
+}
+
+.mainbutton2 {
+  width: auto;
+  height: 40px;
+  border-radius: 50px;
+  border: 0;
+  background-color: orange;
+  cursor: pointer;
+  font-size: 20px;
+  color: white;
+  padding: 0 10px 0 10px;
+  outline: none;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+}
+
+.mainbutton2:hover {
+  background-color: hsl(39, 100%, 41%);
+}
+
+.funcbutton {
+  padding: 1%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main_pic {
+  padding: 5%;
+}
+
+.main_img {
+  display: flex;
+  margin: 0 auto;
+  width: 600px;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
