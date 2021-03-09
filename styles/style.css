@@ -192,9 +192,8 @@ body {
   margin: 1% 1%;
   width: 240px;
   height: 100px;
-  background-color: rgba(83, 83, 83, 0.25);
+  background-color: rgba(190, 190, 190, 0.25);
   border: 1px solid gray;
-  box-shadow: 0 0 1px black;
   border-radius: 5px;
 }
 /* footer start*/
