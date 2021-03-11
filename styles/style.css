@@ -216,17 +216,33 @@ body {
 
 .newsblock{
   display: flex;
-  width: 260px;
-  height: 62px;
+  width: 270px;
+  height: 72px;
   border: 1px solid gray;
   border-radius: 10px;
 }
 
 .news1{
+  margin: auto;
+  margin-left: 5px;
   display: flex;
   width: 60px;
   height: 60px;
   border-radius: 10px;
+}
+.newsblock>p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 14px;
+  padding: 2px;
+}
+
+.newsdiv>a{
+  text-decoration: none;
+  color: black;
+  text-align: center;
 }
 /* footer start*/
 
@@ -249,7 +265,7 @@ body {
 
 .info {
   display: flex;
-  width: 40%;
+  width: 50%;
   justify-content: space-evenly;
   align-items: center;
   font-size: 16px;
